@@ -9,12 +9,12 @@ Bestehen aus elementaren Aussagen, die mit logischen Verbindern kombiniert werde
 
 | Umgangssprache    | Symbol | logischer Name  |
 | ----------------- | ------ | --------------- |
-| Nicht             | ¬ (¯)  | Negation        |
-| Und               | ∧      | Konjunktion     |
-| Oder              | ∨      | Disjunktion     |
-| Wenn ... dann     | →      | Implikation     |
-| Wenn und nur wenn | ↔      | Äquivalenz      |
-| Entweder ... oder | ⊕      | Exklusives Oder |
+| Nicht             | `¬`    | Negation        |
+| Und               | `∧`    | Konjunktion     |
+| Oder              | `∨`    | Disjunktion     |
+| Wenn ... dann     | `→`    | Implikation     |
+| Wenn und nur wenn | `↔`    | Äquivalenz      |
+| Entweder ... oder | `⊕`    | Exklusives Oder |
 
 Wahrheitstabellen logischer Verbinder
 | `P` | `Q` | `P ∧ Q` | `P ∨ Q` | `P → Q` | `P ↔ Q` | `P ⊕ Q` |
@@ -31,11 +31,11 @@ Wahrheitstabelle für dieses Beispiel:
 | `r` | `w` | `b` | `¬b` | `(w ↔ ¬b)` | `r → (w ↔ ¬b)` | Bedeutung                                                                            |
 | --- | --- | --- | ---- | ---------- | -------------- | ------------------------------------------------------------------------------------ |
 | F   | F   | T   | F    | T          | T              |                                                                                      |
-| F   | T   | F   | T    | T          | T              | <- Aussage wahr und Wandern sicher: Wenn Beeren nicht reif und keine Bären gesichtet |
-| F   | T   | T   | F    | F          | T              | <- Aussage wahr und Wandern sicher: Wenn Beeren nicht reif und Bären gesichtet       |
+| F   | T   | F   | T    | T          | T              | Aussage wahr und wandern sicher: Wenn Beeren nicht reif und keine Bären gesichtet |
+| F   | T   | T   | F    | F          | T              | Aussage wahr und wandern sicher: Wenn Beeren nicht reif und Bären gesichtet       |
 | T   | F   | F   | T    | F          | F              |                                                                                      |
 | T   | F   | T   | F    | T          | T              |                                                                                      |
-| T   | T   | F   | T    | T          | T              | <- Aussage wahr und Wandern sicher: Wenn Beeren reif und keine Bären gesichtet       |
+| T   | T   | F   | T    | T          | T              | Aussage wahr und wandern sicher: Wenn Beeren reif und keine Bären gesichtet       |
 | T   | T   | T   | F    | F          | F              |                                                                                      |
 
 ### System Spezifikationen
