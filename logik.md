@@ -1,4 +1,4 @@
 # Logik
 ## [Aussagenlogik](aussagenlogik.md)
 ## [Prädikatenlogik](praedikatenlogik.md)
-## [Inferenzregeln](inferenzregeln.md)
+## [Inferenzregeln](ableitungsregeln-beweisprinzipien.md)

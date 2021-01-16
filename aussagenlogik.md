@@ -63,8 +63,8 @@ Eigenschaften von zusammengesetzter Aussage P
 | -------------------------- | ---------------------------------------------------------------------------------- | --------------------------- |
 | Tautologie                 | Immer wahr, egal welche Werte die Aussagen haben                                   | `a ∨ ¬a`                    |
 | Kontradiktion, Widerspruch | Immer falsch, nicht erfüllbar                                                      | `a ∧ ¬a`                    |
-| Erfüllbar                  | Durch mindestens 1 Kombination von Aussagenwerten erfüllt                          | `(a ⇒ b) ∧ (b ⇒ a)`         |
-| Äquivalent zu Q            | Wenn die gleichen Aussagenwerte immer den gleichen Output liefern. Notation: P ≡ Q | `(a ⇒ b) ∧ (b ⇒ a) ≡ a ↔ b` |
+| Erfüllbar                  | Durch mindestens 1 Kombination von Aussagenwerten erfüllt                          | `(a → b) ∧ (b → a)`         |
+| Äquivalent zu Q            | Wenn die gleichen Aussagenwerte immer den gleichen Output liefern. Notation: P ≡ Q | `(a → b) ∧ (b → a) ≡ a ↔ b` |
 
 Wenn `P ≡ Q`, dann ist `P ↔ Q` eine Tautologie
 

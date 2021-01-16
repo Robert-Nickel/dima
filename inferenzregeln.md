@@ -1,1 +1,0 @@
-# Inferenzregeln und Beweise
