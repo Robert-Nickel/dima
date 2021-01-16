@@ -78,18 +78,8 @@ _______
 *Beispiel:* Wenn du kein Passwort hast, und du ein Passwort brauchst, um dich einzuloggen, dann kannst du dich nicht einloggen.
 
 ### Ableitungsregeln für Aussagenlogik
-+-----------------+---------------------+--------------+
-| Ableitungsregel | Tautologie          | Name         |
-+=================+=====================+==============+
-| `p → q`         | `(p ∧ (p → q)) → q` | Modus Ponens |
-| `p`             |                     |              |
-| ∴ `q`           |                     |              |
-+-----------------+---------------------+--------------+
 
-
-
-| x       | y   | z   |
-| ------- | --- | --- |
-| `¬q`    |     |     |
-| `p → q` |     |     |
-| ∴ `¬p`  |     |     |
+| Ableitungsregel           | Tautologie            | Name          |
+| ------------------------- | --------------------- | ------------- |
+| `p → q`<br>`p`<br>∴ `q`   | `(p ∧ (p → q)) → q`   | Modus Ponens  |
+| `¬q`<br>`p → q`<br>∴ `¬p` | `(¬q ∧ (p → q)) → ¬p` | Modus Tollens |
