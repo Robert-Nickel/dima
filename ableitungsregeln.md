@@ -118,4 +118,5 @@ Ableitungsmaschinen ermöglichen:
 - **Backward Chaining**: Beweise finden durch Etablierung valider Ketten und Auffinden notwendiger Prämissen in der Wissensdatenbank 
 [Mehr darüber hier.](http://aima.eecs.berkeley.edu/slides-pdf/chapter09.pdf)
 
+___
 [Vorheriges: Prädikatenlogik](praedikatenlogik.md) | [Nächstes: Beweisprinzipien](beweisprinzipien.md)
