@@ -30,4 +30,4 @@ Wenn `n` eine ungerade Zahl ist, dann ist `n^2` ungerade.  Direkter Beweis:
 
 |                                                     |      |
 | :-------------------------------------------------- | ---: |
-| [Vorheriges: Beweisprinzipien](beweisprinzipien.md) |      |
+| [Vorheriges: Ableitungsregeln](ableitungsregeln.md) |      |
