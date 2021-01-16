@@ -7,14 +7,7 @@ Sherlock Holmes im Rätsel um das gestohlene Rennpferd "Silver Blaze":
 - Der Wachhund bellte nicht laut  
 => Also kannte der Wachhund den Dieb  
 
-## Ableitungsmaschinen (Inference Engines)
-Ableitungsmaschinen ermöglichen:
-- **Forward Chaining**: Deduktion neuer Information aus Wissensdatenbank 
-- **Backward Chaining**: Beweise finden durch Etablierung valider Ketten und Auffinden notwendiger Prämissen in der Wissensdatenbank 
-[Mehr darüber hier.](http://aima.eecs.berkeley.edu/slides-pdf/chapter09.pdf)
-
 *Beispiel:*  
-
 Sokrates ist ein Mensch.  
 Wenn Sokrates ein Mensch ist, dann ist Sokrates sterblich.  
 ∴ Sokrates ist sterblich
@@ -116,7 +109,13 @@ Mittels Vereinfachung `s ∧ h` → `s` zu Modus Ponens:
 | Existenzielle Generalisierung | `P(c)` für ein c<br>∴ `∃x P(x)`        | Wenn eine Eigenschaft für<br> einen bestimmten Wert wahr ist,<br> dann existiert ein Wert, für den diese Eigenschaft wahr ist. |
 
 *Beispiel:* `Jeder im Kurs hat einen Bachelor` und `Robert ist im Kurs`  
-Nutzung der universellen Instanziierung: `Robert hat einen Bachelor`
+Nutzung der universellen Instanziierung: `Robert hat einen Bachelor`  
+
+## Ableitungsmaschinen (Inference Engines)
+Ableitungsmaschinen ermöglichen:
+- **Forward Chaining**: Deduktion neuer Information aus Wissensdatenbank 
+- **Backward Chaining**: Beweise finden durch Etablierung valider Ketten und Auffinden notwendiger Prämissen in der Wissensdatenbank 
+[Mehr darüber hier.](http://aima.eecs.berkeley.edu/slides-pdf/chapter09.pdf)
 
 | [Vorheriges: Ableitungsregeln](ableitungsregeln.md) | [Nächstes: Beweisprinzipien](beweisprinzipien.md) |
 | :-------------------------------------------------- | ------------------------------------------------: |
