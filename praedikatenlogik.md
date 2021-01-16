@@ -54,3 +54,6 @@ Nutze De Morgans Gesetz und gehe von links nach rechts, bis du das Prädikat err
 ### Logik höherer Ordnung
 - Wenn Prädikate Prädikate haben können.
 - Beispiel: *Higher order functions* in Scala (Funktionen als Parameter für Funktionen)
+
+___
+[Nächstes: Ableitungsregeln](ableitungsregeln.md)
