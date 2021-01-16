@@ -16,8 +16,7 @@ Bestehen aus elementaren Aussagen, die mit logischen Verbindern kombiniert werde
 | Wenn und nur wenn | `↔`    | Äquivalenz      |
 | Entweder ... oder | `⊕`    | Exklusives Oder |
 
-Wahrheitstabellen logischer Verbinder
-
+Wahrheitstabellen logischer Verbinder  
 | `P` | `Q` | `P ∧ Q` | `P ∨ Q` | `P → Q` | `P ↔ Q` | `P ⊕ Q` |
 | --- | --- | ------- | ------- | ------- | ------- | ------- |
 | F   | F   | F       | F       | T       | T       | F       |
@@ -29,6 +28,7 @@ Wahrheitstabellen logischer Verbinder
 `r → (w ↔ ¬b)`
 
 Wahrheitstabelle für dieses Beispiel:
+
 | `r` | `w` | `b` | `¬b` | `(w ↔ ¬b)` | `r → (w ↔ ¬b)` | Bedeutung                                                                             |
 | --- | --- | --- | ---- | ---------- | -------------- | ------------------------------------------------------------------------------------- |
 | F   | F   | T   | F    | T          | T              |                                                                                       |
@@ -49,6 +49,7 @@ Konsistenz: Dürfen keine Konflikte oder Widersprüche beinhalten, es muss eine 
 `II. ¬l ∨ ¬p`  
 
 Wahrheitstabelle für dieses Beispiel:
+
 | `p` | `l` | `p ∧ l` | `¬l ∨ ¬p` |
 | --- | --- | ------- | --------- |
 | F   | F   | F       | T         |
@@ -60,6 +61,7 @@ Bedeutung: Es gibt keine Zeile, in der beide Anforderungen erfüllt sind. Darum 
 
 ## Charakteristiken zusammengesetzter Aussagen
 Eigenschaften von zusammengesetzter Aussage P
+
 | Name                       | Eigenschaft                                                                              | Beispiel                    |
 | -------------------------- | ---------------------------------------------------------------------------------------- | --------------------------- |
 | Tautologie                 | Immer wahr, egal welche Werte die Aussagen haben                                         | `a ∨ ¬a`                    |
@@ -73,6 +75,7 @@ Wenn `P ≡ Q`, dann ist `P ↔ Q` eine Tautologie
 `¬(P ∧ Q) ≡ ¬P ∨ ¬Q`
 
 Beweis:
+
 | `P` | `Q` | `P ∧ Q` | `¬(P ∧ Q)` | `¬P ∨ ¬Q` |
 | --- | --- | ------- | ---------- | --------- |
 | F   | F   | F       | T          | T         |
@@ -83,6 +86,7 @@ Beweis:
 Die letzten 2 Spalten sind gleich, daher ist De Morgan's law wahr.
 
 ## Vereinfachen zusammengesetzter Aussagen
+
 | Gesetz              | für  `∨`                          | für `∧`                           |
 | ------------------- | --------------------------------- | --------------------------------- |
 | Kommutativgesetz    | `P ∨ Q ≡ Q ∨ P`                   | `P ∧ Q ≡ Q ∧ P`                   |
@@ -92,6 +96,6 @@ Die letzten 2 Spalten sind gleich, daher ist De Morgan's law wahr.
 | De Morgans Gesetz   | `¬(P∨ Q) ≡ ¬P ∧ Q`                | `¬(P ∧ Q) ≡ ¬P ∨ ¬Q`              |
 | Doppelnegativgesetz | `¬¬A ≡ A`                         |
 
+
 |      | [Nächstes: Prädikatenlogik](praedikatenlogik.md) |
 | :--- | -----------------------------------------------: |
-

@@ -2,6 +2,7 @@
 - Die Aussage, die A(x) über x macht nennt man Prädikat.
 
 *Beispiele:*
+
 | Aussagenfunktion    | Variable | Prädikat    | Wahr für x        | Falsch für x     |
 | ------------------- | -------- | ----------- | ----------------- | ---------------- |
 | `A(x): x < 100`     | `x`      | `< 100`     | `1`,`99`          | `100`, `999`     |

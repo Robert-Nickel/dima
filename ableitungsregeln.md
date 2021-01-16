@@ -101,6 +101,7 @@ Mittels Vereinfachung `s ∧ h` → `s` zu Modus Ponens:
 *Schlussfolgerung:* Das Argument ist valide. Ich trage einen Sonnenbrille. 😎  
 
 ### Ableitungsregeln für quantifizierte Ausdrücke
+
 | Name                          | Ableitungsregel                        | Erklärung                                                                                                                      |
 | ----------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Universelle Instanziierung    | `∀x P(x)`<br>∴ `P(c)`                  | Wenn eine Eigenschaft für<br> alle Werte einer Gruppe wahr ist,<br> dann ist jeder konkrete Wert dieser Gruppe wahr.           |
