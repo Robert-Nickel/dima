@@ -4,7 +4,7 @@
 Sherlock Holmes im Rätsel um das gestohlene Rennpferd "Silver Blaze":
 - Das Pferd verschwand aus einem Stahl, welcher von einem Wachhund bewacht wurde
 - Der Wachhund bellt laut, wenn er einen Fremden sieht
-- Der Wachhund bellte nicht laut
+- Der Wachhund bellte nicht laut  
 => Also kannte der Wachhund den Dieb  
 
 ## Ableitungsmaschinen (Inference Engines)
@@ -77,5 +77,19 @@ _______
 
 *Beispiel:* Wenn du kein Passwort hast, und du ein Passwort brauchst, um dich einzuloggen, dann kannst du dich nicht einloggen.
 
-### Weitere Ableitungsregeln
-Coming soon.
+### Ableitungsregeln für Aussagenlogik
++-----------------+---------------------+--------------+
+| Ableitungsregel | Tautologie          | Name         |
++=================+=====================+==============+
+| `p → q`         | `(p ∧ (p → q)) → q` | Modus Ponens |
+| `p`             |                     |              |
+| ∴ `q`           |                     |              |
++-----------------+---------------------+--------------+
+
+
+
+| x       | y   | z   |
+| ------- | --- | --- |
+| `¬q`    |     |     |
+| `p → q` |     |     |
+| ∴ `¬p`  |     |     |
