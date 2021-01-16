@@ -118,6 +118,5 @@ Mittels Vereinfachung `s ∧ h` → `s` zu Modus Ponens:
 *Beispiel:* `Jeder im Kurs hat einen Bachelor` und `Robert ist im Kurs`  
 Nutzung der universellen Instanziierung: `Robert hat einen Bachelor`
 
-|                                                   |                                                   |
-| :------------------------------------------------ | ------------------------------------------------: |
 | [Vorheriges: Ableitungsregeln](ableitungsregeln.md) | [Nächstes: Beweisprinzipien](beweisprinzipien.md) |
+| :-------------------------------------------------- | ------------------------------------------------: |
