@@ -28,15 +28,15 @@ Wahrheitstabellen logischer Verbinder
 `r → (w ↔ ¬b)`
 
 Wahrheitstabelle für dieses Beispiel:
-| `r` | `w` | `b` | `¬b` | `(w ↔ ¬b)` | `r → (w ↔ ¬b)` | Bedeutung                                                                         |
-| --- | --- | --- | ---- | ---------- | -------------- | --------------------------------------------------------------------------------- |
-| F   | F   | T   | F    | T          | T              |                                                                                   |
-| F   | T   | F   | T    | T          | T              | Aussage wahr und wandern sicher: Wenn Beeren nicht reif und keine Bären gesichtet |
-| F   | T   | T   | F    | F          | T              | Aussage wahr und wandern sicher: Wenn Beeren nicht reif und Bären gesichtet       |
-| T   | F   | F   | T    | F          | F              |                                                                                   |
-| T   | F   | T   | F    | T          | T              |                                                                                   |
-| T   | T   | F   | T    | T          | T              | Aussage wahr und wandern sicher: Wenn Beeren reif und keine Bären gesichtet       |
-| T   | T   | T   | F    | F          | F              |                                                                                   |
+| `r` | `w` | `b` | `¬b` | `(w ↔ ¬b)` | `r → (w ↔ ¬b)` | Bedeutung                                                                             |
+| --- | --- | --- | ---- | ---------- | -------------- | ------------------------------------------------------------------------------------- |
+| F   | F   | T   | F    | T          | T              |                                                                                       |
+| F   | T   | F   | T    | T          | T              | Aussage wahr und wandern sicher:<br> Wenn Beeren nicht reif und keine Bären gesichtet |
+| F   | T   | T   | F    | F          | T              | Aussage wahr und wandern sicher:<br> Wenn Beeren nicht reif und Bären gesichtet       |
+| T   | F   | F   | T    | F          | F              |                                                                                       |
+| T   | F   | T   | F    | T          | T              |                                                                                       |
+| T   | T   | F   | T    | T          | T              | Aussage wahr und wandern sicher:<br> Wenn Beeren reif und keine Bären gesichtet       |
+| T   | T   | T   | F    | F          | F              |                                                                                       |
 
 ## System Spezifikationen
 Konsistenz: Dürfen keine Konflikte oder Widersprüche beinhalten, es muss eine Kombination für die Input Variablen geben, die alle Anforderungen erfüllt.  
@@ -59,12 +59,12 @@ Bedeutung: Es gibt keine Zeile, in der beide Anforderungen erfüllt sind. Darum 
 
 ## Charakteristiken zusammengesetzter Aussagen
 Eigenschaften von zusammengesetzter Aussage P
-| Name                       | Eigenschaft                                                                        | Beispiel                    |
-| -------------------------- | ---------------------------------------------------------------------------------- | --------------------------- |
-| Tautologie                 | Immer wahr, egal welche Werte die Aussagen haben                                   | `a ∨ ¬a`                    |
-| Kontradiktion, Widerspruch | Immer falsch, nicht erfüllbar                                                      | `a ∧ ¬a`                    |
-| Erfüllbar                  | Durch mindestens 1 Kombination von Aussagenwerten erfüllt                          | `(a → b) ∧ (b → a)`         |
-| Äquivalent zu Q            | Wenn die gleichen Aussagenwerte immer den gleichen Output liefern. Notation: P ≡ Q | `(a → b) ∧ (b → a) ≡ a ↔ b` |
+| Name                       | Eigenschaft                                                                              | Beispiel                    |
+| -------------------------- | ---------------------------------------------------------------------------------------- | --------------------------- |
+| Tautologie                 | Immer wahr, egal welche Werte die Aussagen haben                                         | `a ∨ ¬a`                    |
+| Kontradiktion, Widerspruch | Immer falsch, nicht erfüllbar                                                            | `a ∧ ¬a`                    |
+| Erfüllbar                  | Durch mindestens 1 Kombination von Aussagenwerten erfüllt                                | `(a → b) ∧ (b → a)`         |
+| Äquivalent zu Q            | Wenn die gleichen Aussagenwerte immer<br>den gleichen Output liefern.<br>Notation: P ≡ Q | `(a → b) ∧ (b → a) ≡ a ↔ b` |
 
 Wenn `P ≡ Q`, dann ist `P ↔ Q` eine Tautologie
 

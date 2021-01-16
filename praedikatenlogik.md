@@ -2,10 +2,10 @@
 - Die Aussage, die A(x) über x macht nennt man Prädikat.
 
 *Beispiele:*
-| Aussagenfunktion    | Variable | Prädikat    | Wahr für x      | Falsch für x   |
-| ------------------- | -------- | ----------- | --------------- | -------------- |
-| `A(x): x < 100`     | `x`      | `< 100`     | `1`,`99`        | `100`, `999`   |
-| `B(x,y): x + y = 0` | `x`,`y`  | `x + y = 0` | `x = 1, y = -1` | `x = 1, y = 1` |
+| Aussagenfunktion    | Variable | Prädikat    | Wahr für x        | Falsch für x     |
+| ------------------- | -------- | ----------- | ----------------- | ---------------- |
+| `A(x): x < 100`     | `x`      | `< 100`     | `1`,`99`          | `100`, `999`     |
+| `B(x,y): x + y = 0` | `x`,`y`  | `x + y = 0` | `x = 1`, `y = -1` | `x = 1`, `y = 1` |
 
 Aussagefunktionen
 - können mit logischen Verbindern kombiniert werden
@@ -30,14 +30,16 @@ Existenzquantor
 - Negativbeweis: Alle möglichen Werte prüfen
 
 ### Negation quantifizierter Ausdrücke
-Das Gegenteil von `Jeder liebt Mathematik` ist `Es gibt mindestens eine Person, die Mathematik nicht liebt` (und nicht `Niemand liebt Mathematik`).
+Das Gegenteil von `Jeder liebt Mathematik`<br>
+ist `Es gibt mindestens eine Person, die Mathematik nicht liebt`<br>
+(und nicht `Niemand liebt Mathematik`).
 
-De Morgans Gesetz für Quantoren:
-`¬(∀x ∈ X : A(x)) ≡ ∃x∈X : ¬A(x)`
-`¬(∃x∈X : A(x)) ≡ ∀x∈X : ¬A(x)`
+De Morgans Gesetz für Quantoren:  
+`¬(∀x ∈ X : A(x)) ≡ ∃x∈X : ¬A(x)`  
+`¬(∃x∈X : A(x)) ≡ ∀x∈X : ¬A(x)`  
 
 ### Verschachtelte Quantoren
-Die Reihenfolge von Quantoren kann nicht einfach vertauscht werden!
+Die Reihenfolge von Quantoren kann nicht einfach vertauscht werden!  
 *Beispiel:*  
 `Q(x, y, z) : x + y = z`
 dann gibt es einen Unterschied zwischen  
