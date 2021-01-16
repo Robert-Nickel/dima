@@ -11,7 +11,7 @@ Sherlock Holmes im Rätsel um das gestohlene Rennpferd "Silver Blaze":
 Ableitungsmaschinen ermöglichen:
 - **Forward Chaining**: Deduktion neuer Information aus Wissensdatenbank 
 - **Backward Chaining**: Beweise finden durch Etablierung valider Ketten und Auffinden notwendiger Prämissen in der Wissensdatenbank 
-[http://aima.eecs.berkeley.edu/slides-pdf/chapter09.pdf](Mehr darüber hier.)
+[Mehr darüber hier.](http://aima.eecs.berkeley.edu/slides-pdf/chapter09.pdf)
 
 *Beispiel:*  
 
