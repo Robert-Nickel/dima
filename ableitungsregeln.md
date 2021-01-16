@@ -1,4 +1,4 @@
-# Ableitungsregeln und Beweisprinzipien
+# Ableitungsregeln
 
 *Beispiel:*  
 Sherlock Holmes im Rätsel um das gestohlene Rennpferd "Silver Blaze":
@@ -11,12 +11,12 @@ Sherlock Holmes im Rätsel um das gestohlene Rennpferd "Silver Blaze":
 Ableitungsmaschinen ermöglichen:
 - **Forward Chaining**: Deduktion neuer Information aus Wissensdatenbank 
 - **Backward Chaining**: Beweise finden durch Etablierung valider Ketten und Auffinden notwendiger Prämissen in der Wissensdatenbank 
+[http://aima.eecs.berkeley.edu/slides-pdf/chapter09.pdf](Mehr darüber hier.)
 
 *Beispiel:*  
 
 Sokrates ist ein Mensch.  
-Wenn Sokrates ein Mensch ist, dann ist Sokrates sterblich.
-____
+Wenn Sokrates ein Mensch ist, dann ist Sokrates sterblich.  
 ∴ Sokrates ist sterblich
 
 ## Definitionen
@@ -33,8 +33,7 @@ Zwei Wege:
 ### Modus Ponens
 
 `p → q`  
-`p`
-_______
+`p`  
 ∴ `q`
 
 *Beispiel:* Wenn du ein Passwort hast, dann kannst du dich einloggen. Du hast ein Passwort. Also kannst du dich einloggen.  
@@ -51,8 +50,7 @@ Wahrheitstabelle zur Validierung des Modus Ponens:
 ### Komplizierteres Beispiel
 
 `p → q ∨ ¬r`  
-`q → p ∧ r`
-____________
+`q → p ∧ r`  
 ∴ `p → r`  
 
 Wahrheitstabelle dazu:
@@ -71,8 +69,7 @@ Wahrheitstabelle dazu:
 ### Modus tollens
 
 `¬q`  
-`p → q`
-_______
+`p → q`  
 ∴ `¬p`
 
 *Beispiel:* Wenn du kein Passwort hast, und du ein Passwort brauchst, um dich einzuloggen, dann kannst du dich nicht einloggen.
@@ -90,3 +87,33 @@ _______
 | `p`<br>`q`<br>∴ `p ∧ q`          | `((p) ∧ (q)) → (p ∧ q)`          | Konjunktion                | Es friert. Es regnet. Also friert und regnet es.                                                                                                                   |
 | `p ∨ q`<br>`¬q ∨ r`<br>∴ `q ∨ r` | `((p ∨ q) ∧ (¬q ∨ r)) → (p ∨ r)` | Auflösung                  | Es ist schlecht beschrieben<br> oder ich bin dumm.<br> Ich bin nicht dumm<br> oder ich bin sehr dumm. Also ist es schlecht beschrieben<br> oder ich bin sehr dumm. |
 
+### Anwendung des Ableitungsregeln
+Für kompliziertere Argumente mit mehreren Prämissen, welche nicht direkt zu den obigen korrespondieren:
+1. Nutze eine Ableitungsregel, um eine vorläufige Konklusion aus einer oder mehreren Prämissen (oder schon vorhandenen vorläufigen Konklusionen) abzuleiten.
+2. Wiederhole bis eine gewünschte Konklusion erreicht wird.  
+
+*Beispiel:* Prämissen:
+1. Es ist sonnig und heiß. `s ∧ h`
+2. Wenn es sonnig ist, trage ich eine Sonnenbrille. `s → b`
+=> Konklusion: Ich trage eine Sonnenbrille. `b`
+
+`s ∧ h`  
+`s → b`  
+∴ `b`
+
+Mittels Vereinfachung `s ∧ h` → `s` zu Modus Ponens:  
+`s`  
+`s → b`  
+∴ `b`  
+*Schlussfolgerung:* Das Argument ist valide. Ich trage einen Sonnenbrille. 😎  
+
+### Ableitungsregeln für quantifizierte Ausdrücke
+| Name                          | Ableitungsregel                        | Erklärung                                                                                                                      |
+| ----------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Universelle Instanziierung    | `∀x P(x)`<br>∴ `P(c)`                  | Wenn eine Eigenschaft für<br> alle Werte einer Gruppe wahr ist,<br> dann ist jeder konkrete Wert dieser Gruppe wahr.           |
+| Universelle Generalisierung   | `P(c)` für beliebiges c<br>∴ `∀x P(x)` | Wenn eine Eigenschaft für<br> einen beliebigen Wert einer Gruppe wahr ist,<br> dann ist sie für alle Werte wahr.               |
+| Existenziellle Instanziierung | `∃x P(x)`<br>∴ `P(c)` für ein c        | Wenn ein Wert existiert,<br> für den eine Eigenschaft wahr ist,<br> dann ist diese Eigenschaft für einen bestimmten Wert wahr. |
+| Existenzielle Generalisierung | `P(c)` für ein c<br>∴ `∃x P(x)`        | Wenn eine Eigenschaft für<br> einen bestimmten Wert wahr ist,<br> dann existiert ein Wert, für den diese Eigenschaft wahr ist. |
+
+*Beispiel:* `Jeder im Kurs hat einen Bachelor` und `Robert ist im Kurs`  
+Nutzung der universellen Instanziierung: `Robert hat einen Bachelor`
