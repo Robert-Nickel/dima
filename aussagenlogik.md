@@ -91,5 +91,6 @@ Die letzten 2 Spalten sind gleich, daher ist De Morgan's law wahr.
 | De Morgans Gesetz   | `¬(P∨ Q) ≡ ¬P ∧ Q`                | `¬(P ∧ Q) ≡ ¬P ∨ ¬Q`              |
 | Doppelnegativgesetz | `¬¬A ≡ A`                         |
 
-___
-[Nächstes: Prädikatenlogik](praedikatenlogik.md)
+|      |                                                  |
+| :--- | -----------------------------------------------: |
+|      | [Nächstes: Prädikatenlogik](praedikatenlogik.md) |

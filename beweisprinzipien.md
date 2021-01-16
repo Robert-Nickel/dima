@@ -27,3 +27,7 @@ Wenn `n` eine ungerade Zahl ist, dann ist `n^2` ungerade.  Direkter Beweis:
 5. Ersetze `2k^2 + 2k` mit `m`
 6. `n^2 = 2m + 1`
 7. und das bedeutet, `n^2` ist auch ungerade
+
+|                                                     |      |
+| :-------------------------------------------------- | ---: |
+| [Vorheriges: Beweisprinzipien](beweisprinzipien.md) |      |
