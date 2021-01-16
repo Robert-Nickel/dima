@@ -28,6 +28,4 @@ Wenn `n` eine ungerade Zahl ist, dann ist `n^2` ungerade.  Direkter Beweis:
 6. `n^2 = 2m + 1`
 7. und das bedeutet, `n^2` ist auch ungerade
 
-
-| [Vorheriges: Ableitungsregeln](ableitungsregeln.md) |      |
-| :-------------------------------------------------- | ---: |
+[Vorheriges: Ableitungsregeln](ableitungsregeln.md)

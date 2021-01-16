@@ -56,6 +56,4 @@ Nutze De Morgans Gesetz und gehe von links nach rechts, bis du das Prädikat err
 - Wenn Prädikate Prädikate haben können.
 - Beispiel: *Higher order functions* in Scala (Funktionen als Parameter für Funktionen)
 
-| [Vorheriges: Prädikatenlogik](praedikatenlogik.md) | [Nächstes: Ableitungsregeln](ableitungsregeln.md) |
-| :------------------------------------------------- | ------------------------------------------------: |
-
+[Vorheriges: Prädikatenlogik](praedikatenlogik.md) | [Nächstes: Ableitungsregeln](ableitungsregeln.md)

@@ -1,4 +1,3 @@
 // TODO
 
-| [Vorheriges: Zahlentheorie](zahlentheorie.md) |      |
-| :-------------------------------------------- | ---: |
+[Vorheriges: Zahlentheorie](zahlentheorie.md)
