@@ -17,6 +17,7 @@ Bestehen aus elementaren Aussagen, die mit logischen Verbindern kombiniert werde
 | Entweder ... oder | `⊕`    | Exklusives Oder |
 
 Wahrheitstabellen logischer Verbinder
+
 | `P` | `Q` | `P ∧ Q` | `P ∨ Q` | `P → Q` | `P ↔ Q` | `P ⊕ Q` |
 | --- | --- | ------- | ------- | ------- | ------- | ------- |
 | F   | F   | F       | F       | T       | T       | F       |
