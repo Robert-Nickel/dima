@@ -10,13 +10,13 @@ Definition:
 
 `|A1 ∪ A2 ∪ . . . ∪ Ak|` = `|A1| + |A2| + ... + |Ak|`  
 
-*|A| = Anzahl der Elemente der Menge A*  
-*∪ = Vereinigung, also ODER*  
+|A| = Anzahl der Elemente der Menge A
+∪ = Vereinigung, also ODER
 *Das funktioniert nur für disjunkte Mengen, also dürfen sich keine Elemente doppeln*
 
 ## Produktregel
 
-*Beispiel:* Es gibt 3 unterschiedliche Routen von Konstanz nach München und 4 unterschiedliche von München nach Wien.
+*Beispiel:* Es gibt 3 unterschiedliche Routen von Konstanz nach München und 4 unterschiedliche Routen von München nach Wien.
 
 Also gibt es 3 * 4 = 12 unterschiedliche Routen von Konstanz über München nach Wien.
 
@@ -53,14 +53,15 @@ Definition für 2 Mengen:
 
 `|A1 ∪ A2|` = `|A1| + |A2| - |A1 ∩ A2|`
 
-Also in anderen Worten: Die Größe der Vereinigung von 2 Mengen ist die Summen der beiden Mengen minus die Schnittmenge der beiden Mengen.
+Also in anderen Worten: Die Größe der Vereinigung von 2 Mengen ist die Summe der Größen der beiden Mengen minus die Größe der Schnittmenge der beiden Mengen.
 
 ![](bilder/inklusion-exklusion.png)
 
 
 Definition für 3 Mengen:
 
-`|A1 ∪ A2 ∪ A3|` = `|A1| + |A2| + |A3| - |A1 ∩ A2| - |A1 ∩ A3| - |A2 ∩ A3| + |A1 ∩ A2 ∩ A3|`
+`|A1 ∪ A2 ∪ A3|`  
+= `|A1| + |A2| + |A3| - |A1 ∩ A2| - |A1 ∩ A3| - |A2 ∩ A3| + |A1 ∩ A2 ∩ A3|`
 
 In anderen Worten: Alle zusammenrechnen, die 2-er Schnittmengen abziehen und die Gesamtvereinigung drauf rechnen.
 *Das gibt es auch für mehr Mengen, ist aber schwieriger darzustellen.*
@@ -68,4 +69,4 @@ In anderen Worten: Alle zusammenrechnen, die 2-er Schnittmengen abziehen und die
 Das Einschluss-Ausschluss Prinzip ist eine Verallgemeinerung der Summenregel.
 
 ___
-[Nächstes: Prädikatenlogik](/kombinatorik/taubenschlag.md)
+[Nächstes: Taubenschlagprinzip](taubenschlag.md)

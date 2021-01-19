@@ -22,4 +22,4 @@ damit mindestens `m` Leute miteinander befreundet und `n` Leute verfeindet sind.
 Hier: R(3,3) = 6
 
 ___
-[Vorheriges: Zählen](/kombinatorik/zaehlen.md) | [Nächstes: Permutationen und Kombinationen](/kombinatorik/permutationen-kombinationen.md)
+[Vorheriges: Zählen](zaehlen.md) | [Nächstes: Permutationen und Kombinationen](permutationen-kombinationen.md)
