@@ -60,3 +60,16 @@ Definition: Wenn es um eine ungeordnete Untermenge mit Größe k von einer Menge
 
 Man sagt: n über k
 
+*Beispiel:* Von 10 Äpfeln haben 3 einen Wurm. Du nimmst 5 für den Apfelkuchen. Wie viele Möglichkeiten gibt es, genau 2 Äpfel mit Wurm in deinem Kuchen zu haben.
+
+Lösung:
+
+A = Anzahl der Möglichkeiten für 2 der 3 (aus 10) Äpfel mit Wurm = `C(3,2)`
+
+B = Anzahl der Möglichkeiten für 3 der 7 (aus 10) Äpfel ohne Wurm = `C(7,3)`
+
+`A * B`
+
+= `C(3,2)` * `C(7,3)` (Produktregel!)
+
+= `105`
