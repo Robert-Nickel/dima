@@ -1,9 +1,9 @@
 # Diskrete Mathematik WS 20/21
 ## [Logik](logik.md)
-### [Aussagenlogik](aussagenlogik.md)
-### [Prädikatenlogik](praedikatenlogik.md)
-### [Ableitungsregeln](ableitungsregeln.md)
-### [Beweisprinzipien](beweisprinzipien.md)
+### [Aussagenlogik](/logik/aussagenlogik.md)
+### [Prädikatenlogik](/logik/praedikatenlogik.md)
+### [Ableitungsregeln](/logik/ableitungsregeln.md)
+### [Beweisprinzipien](/logik/beweisprinzipien.md)
 
 ## [Kombinatorik](kombinatorik.md) // TODO
 

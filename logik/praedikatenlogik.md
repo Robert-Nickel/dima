@@ -57,4 +57,4 @@ Nutze De Morgans Gesetz und gehe von links nach rechts, bis du das Prädikat err
 - Beispiel: *Higher order functions* in Scala (Funktionen als Parameter für Funktionen)
 
 ___
-[Vorheriges: Aussagenlogik](aussagenlogik.md) | [Nächstes: Ableitungsregeln](ableitungsregeln.md)
+[Vorheriges: Aussagenlogik](/logik/aussagenlogik.md) | [Nächstes: Ableitungsregeln](/logik/ableitungsregeln.md)

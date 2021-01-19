@@ -119,4 +119,4 @@ Ableitungsmaschinen ermöglichen:
 [Mehr darüber hier.](http://aima.eecs.berkeley.edu/slides-pdf/chapter09.pdf)
 
 ___
-[Vorheriges: Prädikatenlogik](praedikatenlogik.md) | [Nächstes: Beweisprinzipien](beweisprinzipien.md)
+[Vorheriges: Prädikatenlogik](/logik/praedikatenlogik.md) | [Nächstes: Beweisprinzipien](/logik/beweisprinzipien.md)
