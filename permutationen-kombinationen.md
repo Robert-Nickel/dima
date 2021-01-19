@@ -20,7 +20,7 @@ Die mögliche Anzahl für Permutationen ist
 
 `P(n,k) = n * (n -1) * (n - 2) * ... * (n - k + 1)`
 
-= `n! / (n - k)!`
+=> `P(n,k)` = `n! / (n - k)!`
 
 `k` ist die Größe des Siegerpodest  
 `n` ist die Anzahl der in Frage kommenden Läufer
@@ -40,4 +40,23 @@ Lösung: `ABC` wird als ein Objekt gesehen, die anderen 5 Buchstaben als individ
 
 `6!` = `720`
 
+``
+
 ## Kombinationen
+*Beispiel:* Ein Eisverkäufer bietet Eisbecher mit 3 unterschiedlichen Kugeln aus 40 unterschiedlichen Sorten darin an. Wie viele unterschiedliche Eisbecher gibt es, wenn die Reihenfolge der Kugeln egal ist?
+
+Würde die Reihenfolge eine Rolle spielen, so wären es `40! / (40 - 3)!` = `59_280` Permutationen.
+
+Da sie das nicht tut, wurde jede Kombination `3!` = `6` mal zu häufig gezählt, also gibt es `59_280 / 3!` = `9880` unterschiedliche Kombinationen. 
+
+Definition: Wenn es um eine ungeordnete Untermenge mit Größe k von einer Menge der Größe n geht, ist es eine k-Kombination (aus n Elementen).
+
+`C(n, k)` = `P(n,k) / k!`
+
+=> `C(n, k)` = `n! / (k! * (n - k)!)`
+
+## Binomialkoeffizient
+![](bilder/binomialkoeffizient.png)
+
+Man sagt: n über k
+
