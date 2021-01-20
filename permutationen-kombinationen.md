@@ -73,3 +73,62 @@ B = Anzahl der Möglichkeiten für 3 der 7 (aus 10) Äpfel ohne Wurm = `C(7,3)`
 = `C(3,2)` * `C(7,3)` (Produktregel!)
 
 = `105`
+
+## Permutationen mit Zurücklegen
+*Beispiel:* In einer zufällig abgespielten Playlist sind 10 Lieder, welche auch mehrfach vorkommen dürfen. Daher gibt es für die ersten fünf Lieder `10 * 10 * 10 * 10 * 10` = `100_000` unterschiedliche Möglichkeiten.
+
+Ein geordneter Satz von k Objekten aus einer Menge der Größe n nennt man k-Permutation mit Zurücklegen.
+
+Anzahl der k-Permuationen mit Zurücklegen: `P(n,k) = n^k`
+
+Es darf `k > n` sein.
+
+## Kombinationen mit Zurücklegen
+*Beispiel:* Man würfelt mit zwei Würfeln. Die höhere Zahl (bei Pasch eine beliebige Zahl) stellt den "Zehner" und die kleinere Zahl den "Einer", z.B. 5 und 4 wird zu 54, 6 und 6 zu 66. Wie viele unterschiedliche Werte können auftauchen?
+
+P mit R(6,2) würde 36 ergeben, allerdings sind dann manche Werte mehrfach vorhanden (da eine Permutationen unterschiedliche Reihenfolgen zählt, was hier egal ist.)
+
+Von Hand:
+- Ist ein Würfel eine 1, gibt es 6 Möglichkeiten für den anderen.
+- Ist ein Würfel eine 2, gibt es 5 Möglichkeiten für den anderen, denn 1|2 wurde schon im ersten Fall abgebildet.
+- ...
+
+=> `6 * 5 * 4 * 3 * 2 * 1 = 21`
+
+Eine ungeordnete Auswahl von k Elementen aus einer Menge der Größe n, nennt man k-Kombination mit Zurücklegen.
+
+Anzahl der k-Kombinationen mit Zurücklegen: `C(n,k)` 
+
+= `n + k - 1 über k`
+
+= `(n + k - 1)! / (k! * (n - 1)!)`
+
+*Beispiel:* Gummibärchentüte mit 5 unterschiedlichen Gummibärchen, aus der 5 Gummibärchen gezogen werden.
+
+= `n = 5, k = 5`
+
+= `(5 + 5 - 1)! / 5! * (5 - 1)!`
+
+= `9! / 5! * 4!`
+
+= `362880 / (120 * 24)`
+
+= `126`
+
+## Entscheidungsbaum für Kombinationen und Permutationen
+Werden alle Elemente angeordnet?
+
+- Nein
+  - Ist die Reihenfolge wichtig?
+    - Ja - Variation
+      - Mit Zurücklegen?
+        - Ja - `n^k`
+        - Nein - `n! / (n - k)!`
+    - Nein - Kombination
+      - Mit Zurücklegen?
+        - Ja - `(n + k - 1) über k`
+        - Nein - `n über k`
+- Ja
+  - Mit Zurücklegen?
+    - Ja - `n!`
+    - Nein - `n! / (l1! * l2! * ... * lk!)`
