@@ -8,3 +8,6 @@
 ### [Zählen](zaehlen.md)
 ### [Taubenschlagprinzip](taubenschlag.md)
 ### [Permutationen und Kombinationen](permutationen-kombinationen.md)
+## [Zahlentheorie](zahlentheorie.md)
+### [Ganzzahlige Division](ganzzahlige-division.md)
+### [Modulo](modulo.md)
