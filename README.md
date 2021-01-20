@@ -1,13 +1,13 @@
 # Diskrete Mathematik WS 20/21
-## [Logik](logik.md)
+## Logik
 ### [Aussagenlogik](aussagenlogik.md)
 ### [Prädikatenlogik](praedikatenlogik.md)
 ### [Inferenzregeln](ableitungsregeln.md)
 ### [Beweisprinzipien](beweisprinzipien.md)
-## [Kombinatorik](kombinatorik.md)
+## Kombinatorik
 ### [Zählen](zaehlen.md)
 ### [Taubenschlagprinzip](taubenschlag.md)
 ### [Permutationen und Kombinationen](permutationen-kombinationen.md)
-## [Zahlentheorie](zahlentheorie.md)
+## Zahlentheorie
 ### [Ganzzahlige Division](ganzzahlige-division.md)
 ### [Modulo](modulo.md)
