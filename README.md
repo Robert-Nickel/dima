@@ -1,10 +1,10 @@
 # Diskrete Mathematik WS 20/21
-## Logik
+## [Logik](logik.md)
 ### [Aussagenlogik](aussagenlogik.md)
 ### [Prädikatenlogik](praedikatenlogik.md)
 ### [Inferenzregeln](ableitungsregeln.md)
 ### [Beweisprinzipien](beweisprinzipien.md)
-## Kombinatorik
+## [Kombinatorik](kombinatorik.md)
 ### [Zählen](zaehlen.md)
 ### [Taubenschlagprinzip](taubenschlag.md)
 ### [Permutationen und Kombinationen](permutationen-kombinationen.md)
