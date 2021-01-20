@@ -1,4 +1,5 @@
-// TODO
-
+# Zahlentheorie
+## [Ganzzahlige Division](ganzzahlige-division.md)
+## [Modulo](modulo.md)
 ___
-[Vorheriges: Zahlentheorie](zahlentheorie.md)
+[Vorheriges: Kombinatorik](kombinatorik.md)

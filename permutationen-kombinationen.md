@@ -132,3 +132,6 @@ Werden alle Elemente angeordnet?
   - Mit Zurücklegen?
     - Ja - `n!`
     - Nein - `n! / (l1! * l2! * ... * lk!)`
+
+___
+[Vorheriges: Taubenschlagprinzip](taubenschlag.md)
