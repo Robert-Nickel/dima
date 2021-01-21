@@ -1,4 +1,3 @@
-# Diskrete Mathematik WS 20/21
 ## Logik
 ### [Aussagenlogik](aussagenlogik.md)
 ### [Prädikatenlogik](praedikatenlogik.md)
