@@ -93,7 +93,7 @@ Die letzten 2 Spalten sind gleich, daher ist De Morgan's law wahr.
 | Assoziativgesetz    | `P ∨ (Q ∨ R) ≡ (P ∨ Q) ∨ R`       | `P ∧ (Q ∧ R) ≡ (P ∧ Q) ∧ R`       |
 | Distributivgesetz   | `P ∨ (Q ∧ R) ≡ (P ∨ Q) ∧ (P ∨ R)` | `P ∧ (Q ∨ R) ≡ (P ∧ Q) ∨ (P ∧ R)` |
 | Absorptionsgesetz   | `P ∨ (P ∧ Q) ≡ P`                 | `P ∧ (P ∨ Q) ≡ P`                 |
-| De Morgans Gesetz   | `¬(P∨ Q) ≡ ¬P ∧ Q`                | `¬(P ∧ Q) ≡ ¬P ∨ ¬Q`              |
+| De Morgans Gesetz   | `¬(P ∨ Q) ≡ ¬P ∧ ¬Q`                | `¬(P ∧ Q) ≡ ¬P ∨ ¬Q`              |
 | Doppelnegativgesetz | `¬¬A ≡ A`                         |
 
 ___
