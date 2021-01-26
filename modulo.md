@@ -67,7 +67,7 @@ Diese Schreibweise beschreibt ein Verhältnis, im Gegensatz zur Funktion `r = a 
 
 `m = 6`
 
-`24 = 14 + k * 6` | `-14`
+`24 = 14 + k * 6`
 
 = `10 = k * 6` falsch => nicht kongruent
 
