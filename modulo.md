@@ -92,7 +92,57 @@ Durch die Äquivalenz entstehen die Restklassen `Rm`, z.B. für `m = 5`
 
 => alle ganzen Zahlen `a`, die `a mod m = 0` ergeben.  
 
-Es gibt nur Restklassen bis 4 (`m - 1`), da die Restklassen danach wieder von vorne anfangen, z.B. `[0]5 = [5]5`
+Die Menge `Zm` = `{0, 1, 2, ..., m - 1}`
+- Repräsentiert die entsprechenden Restklassen, da die Restklassen danach wieder von vorne anfangen, z.B. `[0]5 = [5]5`
+- Bildet die Menge der möglichen Restwerte
+
+## Algebraische Strukturen mit Rest
+
+`(a + b) mod m` = `a (+m) b`
+
+`(a * b) mod m` = `a (*m) b`
+
+bzw.
+
+![](/bilder/modulo-algebra.png)
+
+| `(+3)` |   0   |   1   |          2           |
+| :----: | :---: | :---: | :------------------: |
+|   0    |   0   |   1   |          3           |
+|   1    |   1   |   2   |          0           |
+|   2    |   2   |   0   | 1 (da `2 + 2 mod 3`) |
+
+Fun Fact: 0 ist das neutrale Element
+
+Inverses Elemtent: Was uns wieder zur 0 zurückbringt bzw. zu jedem `x` gibt es ein `-x`
+
+In diesem Beispiel: 1 und 2
+
+| `(*3)` |   0   |   1   |          2           |
+| :----: | :---: | :---: | :------------------: |
+|   0    |   0   |   0   |          0           |
+|   1    |   0   |   1   |          2           |
+|   2    |   0   |   2   | 1 (da `2 * 2 mod 3`) |
+
+Fun Fact: 1 ist das neutrale Element
+
+Inverses Element: Was uns wieder zur 1 zurückbringt z.B. 2 und 2
+
+`(Zm, (+m), (*m))` ist ein Restklassenring aber kein Restklassenkörper, da die inversen Elemente der Multiplikation fehlen.
+
+Ein Restklassenring befolgt teilweise die gewohnten Rechenregeln, aber nicht alle. Befolgt:
+- Assoziativgesetz für + und * (z.B. `(a * b) * c` = `a * (b * c)`)
+- Distributivgesetz (`a * b + a * c` = `a * (b + c)`)
+- Neutrales Element existiert
+- Additives Inverses existiert, aber kein Multiplikatives Inverses für jede Zahl.
+
+Befolgt nicht manche Eindeutigkeitssätze.
+
+Ist `m` eine Primzahl, dann ist es darüber hinaus ein Restklassenkörper.
+
+Ein Restklassenkörper ist eine Menge, in der alle Rechengesetze wie gewohnt gelten. Andere Beispiele sind Reele Zahle, Komplexe Zahlen etc.
+
+
 
 ___
 [Vorheriges: Ganzzahlige Division](ganzzahlige-division.md) | [Nächstes: NOCH UNKLAR](unklar.md)
