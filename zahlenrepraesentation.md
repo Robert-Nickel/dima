@@ -57,4 +57,4 @@ Vor-Komma-Zahlen von oben nach unten: `101`
 Ergebnis: `4,625` im Dezimalsystem entspricht `100,101` im Binärsystem
 
 ___
-[Vorheriges: Modulo](modulo.md) | [Nächstes: noch unklar](noch-unklar.md)
+[Vorheriges: Modulo](modulo.md) | [Nächstes: Algorithmen für ganze Zahlen](algorithmen-ganze-zahlen.md)
