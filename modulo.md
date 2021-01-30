@@ -114,7 +114,15 @@ bzw.
 
 Fun Fact: 0 ist das neutrale Element
 
-Inverses Elemtent: Was uns wieder zur 0 zurückbringt bzw. zu jedem `x` gibt es ein `-x`
+Inverses Elemtent: Was uns wieder zur 0 zurückbringt bzw. zu jedem `x` gibt es ein `-x`. Schreibweise auch: `x^-1`
+
+Wenn `d` das additive Inverse von `e` ist, dann gilt:
+
+`e (+m) d = 0`
+
+= `d = m - e` (falls `e != 0`, sonst `d = 0`)
+
+z.B. `2 = 3 - 1`
 
 In diesem Beispiel: 1 und 2
 
@@ -127,6 +135,8 @@ In diesem Beispiel: 1 und 2
 Fun Fact: 1 ist das neutrale Element
 
 Inverses Element: Was uns wieder zur 1 zurückbringt z.B. 2 und 2
+
+Existiert immer, wenn `e` und `m` teilerfremd sind (also es keine natürliche Zahl außer 1 gibt, die beide Zahlen teilt). 
 
 `(Zm, (+m), (*m))` ist ein Restklassenring aber kein Restklassenkörper, da die inversen Elemente der Multiplikation fehlen.
 
@@ -142,6 +152,9 @@ Ist `m` eine Primzahl, dann ist es darüber hinaus ein Restklassenkörper.
 
 Ein Restklassenkörper ist eine Menge, in der alle Rechengesetze wie gewohnt gelten. Andere Beispiele sind Reele Zahle, Komplexe Zahlen etc.
 
+`5 (+7) 3` = `(5 + 3) mod 7` = `1`
+
+`3 (*7) 5` = `(3 * 5) mod 7` = `1`
 
 
 ___
