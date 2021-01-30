@@ -10,3 +10,4 @@
 ## Zahlentheorie
 ### [Ganzzahlige Division](ganzzahlige-division.md)
 ### [Modulo](modulo.md)
+### [Zahlenrepräsentation](zahlenrepraesentation.md)

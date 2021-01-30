@@ -203,4 +203,4 @@ oder für Multiplikation
 
 Die Formel stimmt allerdings **nicht**, wenn `a`, `b`, `c` oder `d` ≡ 0 sind. Dann würde man durch 0 teilen, was nicht erlaubt ist.
 ___
-[Vorheriges: Ganzzahlige Division](ganzzahlige-division.md) | [Nächstes: NOCH UNKLAR](unklar.md)
+[Vorheriges: Ganzzahlige Division](ganzzahlige-division.md) | [Nächstes: Zahlenrepräsentation](zahlenrepraesentation.md)
