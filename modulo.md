@@ -136,7 +136,7 @@ Fun Fact: 1 ist das neutrale Element
 
 Inverses Element: Was uns wieder zur 1 zurückbringt z.B. 2 und 2
 
-Existiert immer, wenn `e` und `m` teilerfremd sind (also es keine natürliche Zahl außer 1 gibt, die beide Zahlen teilt). 
+Existiert immer, wenn `e` und `m` teilerfremd sind (also es keine natürliche Zahl außer 1 gibt, die beide Zahlen teilt, ist bei Primzahlen immer der Fall). 
 
 `(Zm, (+m), (*m))` ist ein Restklassenring aber kein Restklassenkörper, da die inversen Elemente der Multiplikation fehlen.
 
@@ -156,6 +156,21 @@ Ein Restklassenkörper ist eine Menge, in der alle Rechengesetze wie gewohnt gel
 
 `3 (*7) 5` = `(3 * 5) mod 7` = `1`
 
+## Verschiebealgorithmus
+
+Um Multiplikatives Inverses zu finden.
+
+Was ist das Inverse von `4` in `Z9`?
+
+`1/4` ist keine ganze Zahle, also Zähler `+ 9`
+
+`10/4` = `2,5` ist keine ganze Zahle, also Zähler `+ 9`
+
+`19/4` = `4,75` ist keine ganze Zahle, also Zähler `+ 9`
+
+`28/4` = `7` ist **eine** ganze Zahle, also `4^-1 in Z9` = `7`
+
+Test: `7 (*9) 4` = `28 mod 9` = `1` <- neutrales Element ✅
 
 ___
 [Vorheriges: Ganzzahlige Division](ganzzahlige-division.md) | [Nächstes: NOCH UNKLAR](unklar.md)
