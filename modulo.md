@@ -96,6 +96,8 @@ Die Menge `Zm` = `{0, 1, 2, ..., m - 1}`
 - Repräsentiert die entsprechenden Restklassen, da die Restklassen danach wieder von vorne anfangen, z.B. `[0]5 = [5]5`
 - Bildet die Menge der möglichen Restwerte
 
+*Lifehack*: Wenn man Modulorechnung beschleunigen will, kann man sich kleinere Repräsentanten der gleichen Äquivalenzklasse suchen.
+
 ## Algebraische Strukturen mit Rest
 
 `(a + b) mod m` = `a (+m) b`
@@ -138,7 +140,7 @@ Inverses Element: Was uns wieder zur 1 zurückbringt z.B. 2 und 2
 
 Existiert immer, wenn `e` und `m` teilerfremd sind (also es keine natürliche Zahl außer 1 gibt, die beide Zahlen teilt, ist bei Primzahlen immer der Fall). 
 
-`(Zm, (+m), (*m))` ist ein Restklassenring aber kein Restklassenkörper, da die inversen Elemente der Multiplikation fehlen.
+`(Zm, (+m), (*m))` ist ein Restklassenring aber kein Restklassenkörper, da die inversen Elemente der Multiplikation fehlen. Anderer Zahlenring sind die ganzen Zahlen.
 
 Ein Restklassenring befolgt teilweise die gewohnten Rechenregeln, aber nicht alle. Befolgt:
 - Assoziativgesetz für + und * (z.B. `(a * b) * c` = `a * (b * c)`)
@@ -172,5 +174,33 @@ Was ist das Inverse von `4` in `Z9`?
 
 Test: `7 (*9) 4` = `28 mod 9` = `1` <- neutrales Element ✅
 
+Fun Facts:
+
+`0` hat nie ein multiplikatives Inverses.
+
+`1` ist immer sein eigenes multiplikatives Inverses (d.h. für jedes `m` gibt es ein Inverses für die 1, nämlich 1).
+
+Die multiplikativen Inversen sind **immer eindeutig**. Das ist gut, wenn man nach dem Inversen sucht, und Zahlen ausschließen kann, weil sie bereits multiplikative Inverse anderer Zahlen in Z sind.
+
+## Rechnen mit kongruenten Zahlen
+Wenn `a ≡ b mod m` und `c ≡ d mod m`, dann
+
+`a + c ≡ b + d mod m` bzw. `(a + b) mod m` = `((a mod m) + (b mod m)) mod m`
+
+`a * c ≡ b * d mod m` bzw. `(a * b) mod m` = `((a mod m) * (b mod m)) mod m`
+
+Man kann also bei Addition und Multiplikation auch erst die Bestandteile Modulorechnen und dann die Ergebnisse miteinander addieren/multiplizieren und dann nochmal Modulorechnen.
+
+*Beispiel*:
+
+`7 ≡ 2 mod 5` und `11 ≡ 1 mod 5`
+
+=> `2 + 1 mod 5` = `3 mod 5` = `3`
+
+oder für Multiplikation
+
+=> `2 * 1 mod 5` = `2 mod 5` = `2`
+
+Die Formel stimmt allerdings **nicht**, wenn `a`, `b`, `c` oder `d` ≡ 0 sind. Dann würde man durch 0 teilen, was nicht erlaubt ist.
 ___
 [Vorheriges: Ganzzahlige Division](ganzzahlige-division.md) | [Nächstes: NOCH UNKLAR](unklar.md)
