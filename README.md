@@ -13,3 +13,4 @@
 ### [Zahlenrepräsentation](zahlenrepraesentation.md)
 ### [Diskrete Exponentialfunktion](diskrete-exponentialfunktion.md)
 ### [Primzahlen](primzahlen.md)
+### [Lineare Kongruenzen](lineare-kongruenzen.md)
