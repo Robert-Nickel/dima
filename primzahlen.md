@@ -80,6 +80,57 @@ Wenn es keine gibt, dann ist das Produkt der Zahlen das kgv.
 
 Wird genommen zur Berechnung des ggt, da Primfaktorzerlegung teuer ist.
 
+Gegeben `a = b * q + r`, dann ist `ggt(a, b) = ggt(b, r)`
+
+=> Jeder Teiler von `a` und `b` ist auch ein Teiler von `b` und `r`
+
+Schritte:
+1. Teile durch `a` durch `b`, um `q` und `r` rauszufinden
+2. Schreibe es so auf `a = b * q + r`
+3. Setze `a2` := `b` und `b2` := `r`
+4. Wiederhole, bis `r = 0` ist
+5. Das zweitletzte berechnete `r` ist der ggt des ursprünglichen `a` und `b` 
+
+*Beispiel*: `ggt(222, 40)`
+
+`222 = 5 * 40 + 22`
+
+`40 = 1 * 22 + 18`
+
+`22 = 1 * 18 + 4`
+
+`18 = 4 * 4 + 2` <- ggt
+
+`4 = 2 * 2 + 0`
+
+**`ggt(222, 40) = 2`**
+
+## Erweiterter Euklidischer Algorithmus
+
+Es existieren ganze Zahlen für `s` und `t`, so dass `ggt(a,b) = a * s + b * t`. `s` und `t` sind Bézous Koeffizienten.
+
+1. Tabelle erstellen
+2. `i` für die Indizes
+3. Vorbefüllen: `s0 = 1`, `s1 = 0`, `t0 = 0`, `t1 = 1`
+4. Euklidischen Algorithmus ausführen, den Quotienten jeweils `k` eintragen
+5. `si+1` (also das nächste s) = `si-1 - ki * si`
+6. `ti+1` = `ti-1 - ki * ti` 
+7. Die letzten `s` und `t` sind die Koeffizienten
+
+*Beispiel*:
+
+`a = 330`, `b = 156`
+
+| i   | a   | b   | s          | t             | k   | Hilfsspalte für Rechnung |
+| --- | --- | --- | ---------- | ------------- | --- | ------------------------ |
+| 0   | 330 | 156 | 1          | 0             | -   | `330 = 2 * 156 + 18`     |
+| 1   | 156 | 18  | 0          | 1             | 2   | `156 = 8 * 18 + 12`      |
+| 2   | 18  | 12  | `1-2*0`=1  | `0-1*2`=-2    | 8   | `18 = 1 * 12 + 6`        |
+| 3   | 12  | 6   | `0-1*8`=-8 | `1-(-2)*8`=17 | 1   | `12 = 2 * 6 + 0`         |
+| 4   | 6   | 0   | 9          | -19           | 2   |                          |
+
+
+=> `ggt(330, 156)` = `6` = `9 * 330 + (-19) * 156`
 
 ___
 [Vorheriges: Diskrete Exponentialfunktion](diskrete-exponentialfunktion.md) | [Nächstes: unklar](unklar.md)
