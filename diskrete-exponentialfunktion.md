@@ -31,4 +31,4 @@ Zum ausrechnen großer Potenzen in Modulo
 
 
 ___
-[Vorheriges: Zahlenrepräsentation](zahlenrepraesentation.md) | [Nächstes: unklar](unklar.md)
+[Vorheriges: Zahlenrepräsentation](zahlenrepraesentation.md) | [Nächstes: Primzahlen](primzahlen.md)

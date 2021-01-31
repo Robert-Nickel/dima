@@ -12,3 +12,4 @@
 ### [Modulo](modulo.md)
 ### [Zahlenrepräsentation](zahlenrepraesentation.md)
 ### [Diskrete Exponentialfunktion](diskrete-exponentialfunktion.md)
+### [Primzahlen](primzahlen.md)
