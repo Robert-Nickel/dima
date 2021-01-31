@@ -62,7 +62,7 @@ Wenn es nach der Primfaktorzerlegung des Zahlen keine gemeinsamen Primfaktoren g
 
 Die kleinste Zahl, die von zwei Zahlen `a` und `b` geteilt wird.
 
-| `a` | `b` | kgm |
+| `a` | `b` | kgv |
 | --- | --- | --- |
 | 5   | 5   | 5   |
 | 8   | 12  | 24  |
@@ -107,7 +107,9 @@ Schritte:
 
 ## Erweiterter Euklidischer Algorithmus
 
-Es existieren ganze Zahlen für `s` und `t`, so dass `ggt(a,b) = a * s + b * t`. `s` und `t` sind Bézous Koeffizienten.
+Es existieren ganze Zahlen für `s` und `t`, so dass `ggt(a,b) = a * s + b * t`.
+
+`s` und `t` sind Bézous Koeffizienten.
 
 1. Tabelle erstellen
 2. `i` für die Indizes
