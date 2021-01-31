@@ -135,4 +135,4 @@ Es existieren ganze Zahlen für `s` und `t`, so dass `ggt(a,b) = a * s + b * t`.
 => `ggt(330, 156)` = `6` = `9 * 330 + (-19) * 156`
 
 ___
-[Vorheriges: Diskrete Exponentialfunktion](diskrete-exponentialfunktion.md) | [Nächstes: Linear Kongruenzen](lineare-kongruenzen.md)
+[Vorheriges: Diskrete Exponentialfunktion](diskrete-exponentialfunktion.md) | [Nächstes: Lineare Kongruenzen](lineare-kongruenzen.md)
