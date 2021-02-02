@@ -60,6 +60,7 @@ Vorgehen:
 4. `y1` = `Inverses(M1) mod m1`, `y2 = Inverses(M2) mod m2`, ...
 5. `x` = `a1 * y1 * M1 + a2 * y2 * M2 + ...`
 6. Falls `x` größer als `M` ist noch `x` = `x mod M`
+7. Prüfen, ob `x` für alle Gleichungen stimmt.
 
 *Beispiel*:
 
