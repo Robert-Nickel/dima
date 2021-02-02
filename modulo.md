@@ -45,7 +45,7 @@ Diese Schreibweise beschreibt ein Verhältnis, im Gegensatz zur Funktion `r = a 
 
 `22 /≡ 17 (mod 54)`, da `22 mod 4 = 2` und `17 mod 4 = 1`
 
-2 ganze Zahlen `a` und `b` und die natürliche Zahle `m` sind nur kongruent, wenn es eine ganze Zahl `k` gibt, so dass
+2 ganze Zahlen `a` und `b` und die natürliche Zahl `m` sind nur kongruent, wenn es eine ganze Zahl `k` gibt, so dass
 1. `a`-`b` = `k * m`
 2. `a` = `b + k * m`
 
