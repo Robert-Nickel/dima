@@ -40,7 +40,7 @@ Im Dezimalsystem 123,456 bedeutet eigentlich
 
 `2 / 2` = `1` Rest `0`
 
-`1 / 2` = `0` Rest `1` <- Ergebnis der Division ist 0, also aufhören
+`1 / 2` = `0` Rest `1` ⬅️ Ergebnis der Division ist 0, also aufhören
 
 Reste von unten nach oben: `100`
 

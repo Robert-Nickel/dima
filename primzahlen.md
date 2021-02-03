@@ -8,13 +8,13 @@ Eine Zahl die keine Primzahl ist, ist eine zusammengesetzte Zahl, da sie auf ein
 
 Beispiel: `38`
 
-`36 / 2 = 18` <- 2 merken
+`36 / 2 = 18` ⬅️ 2 merken
 
-`18 / 2 = 9` <- 2 merken
+`18 / 2 = 9` ⬅️ 2 merken
 
-`9 / 3 = 3` <- 3 merken
+`9 / 3 = 3` ⬅️ 3 merken
 
-`3 / 3 = 1` <- 3 merken
+`3 / 3 = 1` ⬅️ 3 merken
 
 => `36` = `2 * 2 * 3 * 3` = `2^2 * 3^2`
 
@@ -99,7 +99,7 @@ Schritte:
 
 `22 = 1 * 18 + 4`
 
-`18 = 4 * 4 + 2` <- ggt
+`18 = 4 * 4 + 2` ⬅️ ggt
 
 `4 = 2 * 2 + 0`
 

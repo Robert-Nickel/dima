@@ -9,7 +9,7 @@ Zum ausrechnen großer Potenzen in Modulo
 
 **Schritt 1**
 
-`19` binär ist `10011` <- 5 Stellig, also Exponenten im nächsten Schritt 5 mal (also bis 16) verdoppeln
+`19` binär ist `10011` ⬅️ 5 Stellig, also Exponenten im nächsten Schritt 5 mal (also bis 16) verdoppeln
 
 **Schritt 2**
 

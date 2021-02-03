@@ -27,6 +27,8 @@ Für feste `m` werden die Funktionen `div` und `mod` so definiert:
 
 `-3 mod 5: -1 * 5 + 2 also 2`
 
+[Guter Onlinerechner für ganzzahlige Division und Rest](https://www.symbolab.com/solver/modulo-calculator)
+
 ## Kongruenz
 
 Wenn 2 ganze Zahlen `a` und `b`, die durch `m` geteilt werden, den gleichen Rest haben, dann sind sie zueinander __kongruent__ für diesen Divisor.
@@ -172,7 +174,7 @@ Was ist das Inverse von `4` in `Z9`?
 
 `28/4` = `7` ist **eine** ganze Zahle, also `4^-1 in Z9` = `7`
 
-Test: `7 (*9) 4` = `28 mod 9` = `1` <- neutrales Element ✅
+Test: `7 (*9) 4` = `28 mod 9` = `1` ⬅️ neutrales Element ✅
 
 Fun Facts:
 

@@ -113,7 +113,7 @@ für alle `a`, die sich nicht durch `p` teilen lassen (also `a` ist kein Vielfac
 
 *Beispiel*:
 
-`2^7` <- 7 ist eine Primzahl
+`2^7` ⬅️ 7 ist eine Primzahl
 
 => `2 mod 7` = `2`
 
