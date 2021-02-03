@@ -204,5 +204,6 @@ oder für Multiplikation
 => `2 * 1 mod 5` = `2 mod 5` = `2`
 
 Die Formel stimmt allerdings **nicht**, wenn `a`, `b`, `c` oder `d` ≡ 0 sind. Dann würde man durch 0 teilen, was nicht erlaubt ist.
+
 ___
 [Vorheriges: Ganzzahlige Division](ganzzahlige-division.md) | [Nächstes: Zahlenrepräsentation](zahlenrepraesentation.md)
