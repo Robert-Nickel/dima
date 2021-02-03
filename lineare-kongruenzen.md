@@ -123,6 +123,12 @@ Trick 17: Wenn `p` keine Primzahl ist, dann kann man den kleinen Fermat trotzdem
 
 `a^n ≡ a^r mod p`, wobei `r = n mod (p-1)` ist
 
+Vorgehen:
+1. Checken, dass `ggt(a, m)` = 1 ist
+2. `m' = (m-1)`
+3. `p` in `m'` zerlegen, um `r` auszurechnen
+4. `a^r mod m` ausrechnen
+
 *Beispiel*:
 
 `7^222 mod 11`
@@ -144,4 +150,4 @@ Trick 17: Wenn `p` keine Primzahl ist, dann kann man den kleinen Fermat trotzdem
 => `49 mod 11` = `5 mod 11` 
 
 ___
-[Vorheriges: Primzahlen](primzahlen.md) | [Nächstes: Unklar](unklar.md)
+[Vorheriges: Primzahlen](primzahlen.md)
