@@ -166,13 +166,13 @@ Um Multiplikatives Inverses zu finden.
 
 Was ist das Inverse von `4` in `Z9`?
 
-`1/4` ist keine ganze Zahle, also Zähler `+ 9`
+`1/4` ist keine ganze Zahl, also Zähler `+ 9`
 
-`10/4` = `2,5` ist keine ganze Zahle, also Zähler `+ 9`
+`10/4` = `2,5` ist keine ganze Zahl, also Zähler `+ 9`
 
-`19/4` = `4,75` ist keine ganze Zahle, also Zähler `+ 9`
+`19/4` = `4,75` ist keine ganze Zahl, also Zähler `+ 9`
 
-`28/4` = `7` ist **eine** ganze Zahle, also `4^-1 in Z9` = `7`
+`28/4` = `7` ist **eine** ganze Zahl, also `4^-1 in Z9` = `7`
 
 Test: `7 (*9) 4` = `28 mod 9` = `1` ⬅️ neutrales Element ✅
 
@@ -182,7 +182,7 @@ Fun Facts:
 
 `1` ist immer sein eigenes multiplikatives Inverses (d.h. für jedes `m` gibt es ein Inverses für die 1, nämlich 1).
 
-Die multiplikativen Inversen sind **immer eindeutig**. Das ist gut, wenn man nach dem Inversen sucht, und Zahlen ausschließen kann, weil sie bereits multiplikative Inverse anderer Zahlen in Z sind.
+Die multiplikativen Inversen sind **immer eindeutig** wenn sie existieren. Das ist gut, wenn man nach dem Inversen sucht, und Zahlen ausschließen kann, weil sie bereits multiplikative Inverse anderer Zahlen in Z sind.
 
 ## Rechnen mit kongruenten Zahlen
 Wenn `a ≡ b mod m` und `c ≡ d mod m`, dann
