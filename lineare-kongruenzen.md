@@ -42,7 +42,7 @@ Wenn `t = 1` (teilerfremd), dann gibt es ein eindeutiges mutliplikatives Inverse
 
 Wenn `t > 1` (nicht teilerfremd)
 - Wenn `t` nicht `b` teilt dann gibt es keine Lösung
-- Wenn `t` `b` teilt, dann gibt es `t` unterschiedliche Lösungen zwischen 1 und `t`
+- Wenn `t` `b` teilt, dann gibt es `t` unterschiedliche Lösungen zwischen 1 und `m`
 
 Wenn das multiplikative Inverse gefunden ist, setze ein in
 
