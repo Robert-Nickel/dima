@@ -50,7 +50,7 @@ Wenn das multiplikative Inverse gefunden ist, setze ein in
 
 Tada.
 
-## Chinesischer Restsatz
+## Chinesischer Restsatz (CRT)
 Für ein lineares Kongruenzgleichungssystem (also ganz viele `x ≡ a mod m`), bei dem alle `m` zueinander teilfremd sind, existiert ein eindeutiges `x`, welches kleiner als das Produkt aller `m` ist.
 
 Vorgehen:
@@ -93,6 +93,55 @@ Vorgehen:
 `y3` = `1 mod 7` = `1`
 
 `x` = `(2 * 2 * 35 + 3 * 1 * 21 + 2 * 1 * 15) mod M` = `233 mod 105` = `23` 
+
+Anwendung
+- Secret Sharing: Jeder kriegt ein Geheimnis, und nur mit allen (oder einer Mindestanzahl) von Geheimnissen, kann man das gemeinsame Geheimnis entschlüsseln.
+- Custom Zahlenranges schaffen. Wenn Zahlen sehr groß werden, ist das ein Problem für Hardware (physikalisch auf bestimmte Größe begrenzt). Daher kann man auch deren CRT Repräsentation nehmen (für klug gewählte zueinander teilerfremde `m`, und dann mit deutlich kleineren Zahlen rechnen) 
+
+
+## Kleiner Satz von Fermat
+
+Sei `p` eine Primzahl.
+
+für alle `a` gilt
+
+`a^p ≡ a mod p`
+
+für alle `a`, die sich nicht durch `p` teilen lassen (also `a` ist kein Vielfaches von `p`) folgt:
+
+`a^p-1 ≡ 1 mod p`
+
+*Beispiel*:
+
+`2^7` <- 7 ist eine Primzahl
+
+=> `2 mod 7` = `2`
+
+=> `2 mod 6` = `1` (da unterer Satz: 2 hoch Primzahl minus 1 ≡ 1)
+
+Trick 17: Wenn `p` keine Primzahl ist, dann kann man den kleinen Fermat trotzdem nutzen, indem man diese Formel benutzt:
+
+`a^n ≡ a^r mod p`, wobei `r = n mod (p-1)` ist
+
+*Beispiel*:
+
+`7^222 mod 11`
+
+`a = 7`
+
+`m = 11`
+
+`ggt(a, m)` = `ggt(7,11)` = `1` (7 und 11 sind teilerfremd)
+
+`7^(11-1)` = `7^10` = `1 mod 11` (Da `a^(p-1) = 1 mod p`)
+
+`222 = 22 * 10 + 2` (Den Exponenten zerlegen in `m-1`)
+
+`r = 2`
+
+=> `7^222` = `7^2 mod 11` (Da `a^n` = `a^r mod p`)
+
+=> `49 mod 11` = `5 mod 11` 
 
 ___
 [Vorheriges: Primzahlen](primzahlen.md) | [Nächstes: Unklar](unklar.md)
