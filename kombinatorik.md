@@ -2,7 +2,7 @@
 
 ## Summenregel
 
-*Beispiel:* Jemand kann sich ein Projekt aus drei Listen anbieten. Die erste Liste hat 3 Einträge, die zweite hat 5 Einträge und die dritte hat 9 Einträge. Keines der Projekte kommt in mehreren Listen vor.
+*Beispiel:* Jemand kann sich ein Projekt aus drei Listen auswählen. Die erste Liste hat 3 Einträge, die zweite hat 5 Einträge und die dritte hat 9 Einträge. Keines der Projekte kommt in mehreren Listen vor.
 
 Die Person kann sich also zwischen 3 + 5 + 9 = 17 Projekten entscheiden.
 
