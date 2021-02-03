@@ -1,16 +1,3 @@
-## Logik
-### [Aussagenlogik](aussagenlogik.md)
-### [Prädikatenlogik](praedikatenlogik.md)
-### [Inferenzregeln](ableitungsregeln.md)
-### [Beweisprinzipien](beweisprinzipien.md)
-## Kombinatorik
-### [Zählen](zaehlen.md)
-### [Taubenschlagprinzip](taubenschlag.md)
-### [Permutationen und Kombinationen](permutationen-kombinationen.md)
-## Zahlentheorie
-### [Ganzzahlige Division](ganzzahlige-division.md)
-### [Modulo](modulo.md)
-### [Zahlenrepräsentation](zahlenrepraesentation.md)
-### [Diskrete Exponentialfunktion](diskrete-exponentialfunktion.md)
-### [Primzahlen](primzahlen.md)
-### [Lineare Kongruenzen](lineare-kongruenzen.md)
+## [Logik](logik.md)
+## [Kombinatorik](kombinatorik.md)
+## [Zahlentheorie](zahlentheorie.md)
